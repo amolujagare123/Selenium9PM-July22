@@ -25,7 +25,8 @@ public class LoginTest {
         WebElement btnLogin = driver.findElement(By.name("submit"));
         btnLogin.click();
 
-        WebElement lnkAddCustomer = driver.findElement(By.linkText("Add Customer"));
+        //WebElement lnkAddCustomer = driver.findElement(By.linkText("Add Customer"));
+        WebElement lnkAddCustomer = driver.findElement(By.partialLinkText("d Cus"));
         lnkAddCustomer.click();
 
 
