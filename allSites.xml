@@ -1,0 +1,17 @@
+<suite name="all sites">
+
+    <test name = "study sites">
+        <classes>
+            <class name="testng.RealDemo.Jobsites"/>
+            <class name="testng.RealDemo.StudySites"/>
+        </classes>
+
+    </test>
+
+    <test name = "Social sites">
+        <classes>
+            <class name="testng.RealDemo.Socialsites"/>
+        </classes>
+    </test>
+
+</suite>
