@@ -1,14 +1,15 @@
 <suite name="project name">
 
+    <groups>
+        <run>
+            <include name="email"/>
+        </run>
+    </groups>
+
     <test name = "first set">
         <classes>
 
-            <class name="testng.Demo.ClassOne">
-                <methods>
-                    <include name="classOneTest3"/>
-                </methods>
-            </class>
-
+            <class name="testng.Demo.ClassOne"/>
             <class name="testng.Demo.ClassTwo"/>
         </classes>
     </test>

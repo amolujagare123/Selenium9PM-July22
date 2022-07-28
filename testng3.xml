@@ -1,0 +1,21 @@
+<suite name="project name">
+
+    <parameter name="url" value="http://chat.cookingwithamol.com"/>
+    <parameter name="username" value="amol"/>
+    <parameter name="password" value="amol123"/>
+
+    <test name = "first set">
+        <classes>
+
+            <class name="testng.demo2.Demo.ClassOne"/>
+            <class name="testng.demo2.Demo.ClassTwo"/>
+        </classes>
+    </test>
+
+    <test name = "second set">
+        <classes>
+            <class name="testng.demo2.Demo.ClassThree"/>
+        </classes>
+    </test>
+
+</suite>
