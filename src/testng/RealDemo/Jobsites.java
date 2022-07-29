@@ -1,8 +1,10 @@
 package testng.RealDemo;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -36,6 +38,8 @@ public class Jobsites {
     public void monster()
     {
         driver.get("http://monster.com");
+        Assert.assertEquals(true,false,
+                "this is not monster.com");
     }
 
     @Test
