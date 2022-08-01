@@ -18,13 +18,8 @@ public class Multiselectlist {
 
         Select selMulti = new Select(multiSel);
 
-        Thread.sleep(4000);
         selMulti.selectByIndex(0);
-
-        Thread.sleep(4000);
         selMulti.selectByVisibleText("text 2");
-
-        Thread.sleep(4000);
         selMulti.selectByIndex(3);
     }
 }
