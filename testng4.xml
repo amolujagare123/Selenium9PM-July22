@@ -1,0 +1,22 @@
+<suite name="project name">
+
+    <listeners>
+        <listener class-name="ListnersDemo.MyListener"/>
+    </listeners>
+
+
+    <test name = "first set">
+        <classes>
+
+            <class name="testng.Demo.ClassOne"/>
+            <class name="testng.Demo.ClassTwo"/>
+        </classes>
+    </test>
+
+    <test name = "second set">
+        <classes>
+            <class name="testng.Demo.ClassThree"/>
+        </classes>
+    </test>
+
+</suite>
