@@ -1,0 +1,21 @@
+<suite name="all sites">
+
+    <listeners>
+        <listener class-name="ListnersDemo.MyExtentListener"/>
+    </listeners>
+
+    <test name = "study sites">
+        <classes>
+            <class name="testng.RealDemo.Jobsites"/>
+            <class name="testng.RealDemo.StudySites"/>
+        </classes>
+
+    </test>
+
+    <test name = "Social sites">
+        <classes>
+            <class name="testng.RealDemo.Socialsites"/>
+        </classes>
+    </test>
+
+</suite>
