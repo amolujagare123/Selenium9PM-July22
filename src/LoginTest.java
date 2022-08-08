@@ -30,6 +30,7 @@ public class LoginTest {
         lnkAddCustomer.click();
 
 
+
         WebElement txtName = driver.findElement(By.name("name"));
         txtName.sendKeys("Purushottam1");
 
